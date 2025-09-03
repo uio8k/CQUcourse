@@ -1,6 +1,7 @@
-# requirements.txt - 招聘数据分析 Streamlit 项目
-streamlit==1.32.2  # Streamlit 核心库（必须）
-pandas==2.2.1      # 处理 CSV 数据（必须）
-matplotlib==3.8.3  # 绘制图表（必须）
-numpy==1.26.4      # 数值计算（必须，pandas/matplotlib 依赖）
-# （可选，若代码用了 warnings 库，实际是 Python 内置，可省略）
+# 原错误写法（指定了不存在/不兼容的版本）
+matplotlib==3.8.3
+# 改为兼容写法（允许安装 3.0 及以上所有兼容版本）
+matplotlib>=3.0
+pandas>=2.0
+streamlit>=1.0
+numpy>=1.20
