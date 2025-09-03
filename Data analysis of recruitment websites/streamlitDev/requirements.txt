@@ -1,0 +1,6 @@
+# requirements.txt - 招聘数据分析 Streamlit 项目
+streamlit  # Streamlit 核心库（必须）
+pandas      # 处理 CSV 数据（必须）
+matplotlib  # 绘制图表（必须）
+numpy      # 数值计算（必须，pandas/matplotlib 依赖）
+# （可选，若代码用了 warnings 库，实际是 Python 内置，可省略）
